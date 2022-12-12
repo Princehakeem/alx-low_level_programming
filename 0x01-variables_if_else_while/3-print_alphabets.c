@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * main - return alphabets both lower and upper cases 
+ * main - returna alphabets both lower and upper cases 
  *
  * Return: Always 0 (Success)
  */
@@ -10,6 +10,7 @@ int main(void)
 {
 	int ch = 'a';
 	int CH = 'A';
+
 	while (ch <= 'z')
 	{
 		putchar(ch);
