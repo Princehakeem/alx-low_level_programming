@@ -1,19 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - main block
- * Description: Get a random it with 5
+ * main - return alphabets
+ *
  * Return: 0
  */
 int main(void)
 {
 
-	char c = 'a';
+	int ch = 'a';
 
-	while (c < = 'z')
+	while (ch < = 'z')
 	{
-		putchar(c);
-		c++;
+		putchar(ch);
+		ch++;
 	}
 
 	putchar('\n');
