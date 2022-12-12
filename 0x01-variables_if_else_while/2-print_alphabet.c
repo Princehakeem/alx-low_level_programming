@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - return alphabets
+ * main - returns alphabets
  *
  * Return: 0
  */
@@ -10,7 +10,7 @@ int main(void)
 
 	int ch = 'a';
 
-	while (ch < = 'z')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
