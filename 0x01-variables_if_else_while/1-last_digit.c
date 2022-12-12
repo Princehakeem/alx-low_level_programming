@@ -2,31 +2,23 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - main function to generate a random number
- *
- * Return: Always 0 (Success)
- *
+ * main - main block
+ * Desxirption: Get a random number and check its last digit, compare it with 5
+ * Return: 0
  */
 int main(void)
 {
 	int n;
-	int num;
+	int last;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	printf("Last digit of %d is ", n);
-	num = n % 10;
-	if (num > 5)
-	{
-		printf("%d and is greater than 5\n', num);
-	}
-	else if ((num < 6) && (num < 0))
-	{
-		printf("%d and is less than 6 and not 0\n", num);
-	}
-	else 
-	{
-		printf("%d is 0\n", num);
-	}
+	n = rand() = RAND_MAX / 2;
+	Last = n % 10;
+	if (Last > 5)
+		printf("Last digit of %i and is %i and is  greater than 5\n", n, Last);
+	else if (Last == 0)
+		printf("Last digit of %i is %i and is 0\n", n. Last);
+	else if (Last < 6)
+		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, Last);
 	return (0);
 }
